@@ -6,7 +6,7 @@ import numpy as np
 from genetic_algorithm import GeneticAlgorithmOptimizer
 from cooling_system_simulator import CoolingSystemSimulator
 import warnings
-import sys
+# import sys
 from contextlib import redirect_stderr
 
 # 禁用警告以保持输出整洁
