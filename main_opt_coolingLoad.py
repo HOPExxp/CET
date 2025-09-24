@@ -18,8 +18,9 @@ def main():
     主函数：集成遗传算法和制冷系统仿真器，仅优化coolingLoad参数，其他参数从CSV导入
     """
     # 1. 配置文件路径
-    FMU_PATH = r"C:\Users\xxp\Documents\Dymola\CET-zhuzhouyidong\simulation_changeinput\CoolingStation_0changeinput_System_Coolingstation.fmu"
-    INPUT_CSV_PATH = "input_data.csv"  # 其他参数从该CSV文件导入
+    # FMU_PATH = r"C:\Users\xxp\Documents\Dymola\CET-zhuzhouyidong\simulation_changeinput\CoolingStation_0changeinput_System_Coolingstation.fmu"
+    FMU_PATH = r"D:\Program Files\Dymola 2023x Refresh 1\Buildings-v12.1.0\Buildings 12.1.0\CoolingStation_System_Coolingstation2.fmu"
+    INPUT_CSV_PATH = ".\数据文件\Input\input_data.csv"  # 其他参数从该CSV文件导入
 
     # 2. 初始化仿真器
     simulator = CoolingSystemSimulator(FMU_PATH)
@@ -102,7 +103,7 @@ def main():
     best_solution, best_fitness = ga_optimizer.optimize()
 
     # 7. 绘制优化历史
-    ga_optimizer.plot_optimization_history('ga_optimization_history.png')
+    ga_optimizer.plot_optimization_history('.\数据文件\Output\ga_optimization_history.png')
 
     # 8. 输出优化结果
     print(f"\n优化完成!")
@@ -112,7 +113,7 @@ def main():
         print(f"最优 {var['name']}: {display_value:.2f} {var['scale_unit']} ({value:.0f} {var['unit']})")
     print(f"最小能耗: {best_fitness:.2f} kWh")
 
-    # 9. 最终精确仿真（使用优化结果）
+    # # 9. 最终精确仿真（使用优化结果）
     print("\n使用最优参数运行最终仿真...")
 
     with open(os.devnull, 'w') as f, redirect_stderr(f):
@@ -131,8 +132,8 @@ def main():
     if optimal_success:
         final_energy = simulator.total_energy / 3.6e6
         print(f"最优参数下的总能耗: {final_energy:.2f} kWh")
-        simulator.save_results('optimal_simulation_results.csv')
-        simulator.export_input_signals('optimal_input_signals.csv')
+        simulator.save_results('.\数据文件\Output\optimal_simulation_results.csv')
+        simulator.export_input_signals('.\数据文件\Output\optimal_input_signals.csv')
 
         # 绘制关键结果曲线
         plt.figure(figsize=(10, 6))
