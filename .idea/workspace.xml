@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="573b9f22-06fd-4a57-9064-bbb36b1b68f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_opt_coolingLoad.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_opt_coolingLoad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据文件/Output/ga_optimization_history.png" beforeDir="false" afterPath="$PROJECT_DIR$/数据文件/Output/ga_optimization_history.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据文件/Output/optimal_input_signals.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据文件/Output/optimal_input_signals.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据文件/Output/optimal_simulation_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据文件/Output/optimal_simulation_results.csv" afterDir="false" />
+    <list default="true" id="573b9f22-06fd-4a57-9064-bbb36b1b68f5" name="Default" comment="第二次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhuzhouyidong/Python_FMU.py" beforeDir="false" afterPath="$PROJECT_DIR$/zhuzhouyidong/Python_FMU.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +41,20 @@
       <file leaf-file-name="main_opt_coolingLoad.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_opt_coolingLoad.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+            <state relative-caret-position="330">
+              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python_FMU.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhuzhouyidong/Python_FMU.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding>
+                <element signature="e#20#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +62,7 @@
       <file leaf-file-name="cooling_system_simulator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cooling_system_simulator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="225">
               <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
             </state>
           </provider>
@@ -64,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/main_opt_Tset_addtime.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
                 <element signature="e#21#30#0" expanded="true" />
               </folding>
@@ -87,7 +95,7 @@
       <file leaf-file-name="main_opt_coolingandTset_addtime.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_opt_coolingandTset_addtime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="180">
               <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="e#21#30#0" expanded="true" />
@@ -125,7 +133,6 @@
         <option value="$PROJECT_DIR$/test_origin.py" />
         <option value="$PROJECT_DIR$/tesy.py" />
         <option value="$PROJECT_DIR$/zhuzhouyidong/FMU.py" />
-        <option value="$PROJECT_DIR$/zhuzhouyidong/Python_FMU.py" />
         <option value="$PROJECT_DIR$/zhuzhouyidong/Python_FMU0.py" />
         <option value="$PROJECT_DIR$/main_optimization.py" />
         <option value="$PROJECT_DIR$/zhuzhouyidong/input_data.csv" />
@@ -139,6 +146,7 @@
         <option value="$PROJECT_DIR$/main_opt_coolingandTset_addtime.py" />
         <option value="$PROJECT_DIR$/main_opt_Tset.py" />
         <option value="$PROJECT_DIR$/main_opt_coolingLoad.py" />
+        <option value="$PROJECT_DIR$/zhuzhouyidong/Python_FMU.py" />
       </list>
     </option>
   </component>
@@ -152,8 +160,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="376" />
-    <option name="y" value="124" />
+    <option name="x" value="639" />
+    <option name="y" value="118" />
     <option name="width" value="1225" />
     <option name="height" value="840" />
   </component>
@@ -169,11 +177,6 @@
             <path>
               <item name="CET" type="b2602c69:ProjectViewProjectNode" />
               <item name="CET" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CET" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CET" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuzhouyidong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CET" type="b2602c69:ProjectViewProjectNode" />
@@ -365,7 +368,28 @@
       <option name="project" value="LOCAL" />
       <updated>1758712691791</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第一次提交">
+      <created>1758713024643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758713024643</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第二次提交">
+      <created>1758713116535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758713116535</updated>
+    </task>
+    <task id="LOCAL-00006" summary="第二次提交">
+      <created>1758770869332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758770869332</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -387,15 +411,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1337953" side_tool="true" visible="true" weight="0.29398906" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21215352" side_tool="true" visible="true" weight="0.29398906" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49957082" weight="0.3281471" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8662047" visible="true" weight="0.29398906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7878465" weight="0.29366812" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.38965884" />
@@ -414,24 +439,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18995634" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969433" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969433" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.3491471" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969433" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +497,8 @@
     </ignored-roots>
     <MESSAGE value="Dymola+python联合仿真" />
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main_opt_coolingandTset_addtime.py">
@@ -712,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhuzhouyidong/Python_FMU.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4833">
-          <caret line="98" column="50" lean-forward="true" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhuzhouyidong/tesy_changejiekou.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -791,7 +810,7 @@
     <entry file="file://$PROJECT_DIR$/main_opt_Tset_addtime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding>
             <element signature="e#21#30#0" expanded="true" />
           </folding>
@@ -810,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main_opt_coolingandTset_addtime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="180">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="49" />
           <folding>
             <element signature="e#21#30#0" expanded="true" />
@@ -818,23 +837,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/optimal_simulation_results.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/optimal_simulation_results.csv" />
     <entry file="file://$PROJECT_DIR$/数据文件/Output/optimal_simulation_results.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cooling_system_simulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="225">
           <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuzhouyidong/Python_FMU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#20#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_opt_coolingLoad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+        <state relative-caret-position="330">
+          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
         </state>
       </provider>
     </entry>
